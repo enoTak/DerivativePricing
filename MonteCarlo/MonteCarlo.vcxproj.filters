@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{65285e46-dc1f-47aa-9889-a762ed5ee8d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="implement">
+      <UniqueIdentifier>{1f238c85-ee7e-4fcf-a018-ad3f0aab4c33}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Parameters.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PayOff.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PayOffBridge.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Random.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SimpleMonteCarlo.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\VanillaOption.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ApiDefinition.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Statistics.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="implement\Parameters.cpp">
+      <Filter>implement</Filter>
+    </ClCompile>
+    <ClCompile Include="implement\PayOff.cpp">
+      <Filter>implement</Filter>
+    </ClCompile>
+    <ClCompile Include="implement\PayOffBridge.cpp">
+      <Filter>implement</Filter>
+    </ClCompile>
+    <ClCompile Include="implement\Random.cpp">
+      <Filter>implement</Filter>
+    </ClCompile>
+    <ClCompile Include="implement\SimpleMonteCarlo.cpp">
+      <Filter>implement</Filter>
+    </ClCompile>
+    <ClCompile Include="implement\VanillaOption.cpp">
+      <Filter>implement</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
