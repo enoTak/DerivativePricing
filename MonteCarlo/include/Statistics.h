@@ -2,7 +2,7 @@
 
 #include <vector>
 
-namespace MontCarlo
+namespace MonteCarlo
 {
 	class Statistics
 	{

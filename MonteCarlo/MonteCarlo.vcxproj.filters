@@ -27,12 +27,10 @@
     <ClInclude Include="include\VanillaOption.h">
       <Filter>include</Filter>
     </ClInclude>
-    <ClInclude Include="include\ApiDefinition.h">
-      <Filter>include</Filter>
-    </ClInclude>
     <ClInclude Include="include\Statistics.h">
       <Filter>include</Filter>
     </ClInclude>
+    <ClInclude Include="include\ApiDefinition.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="implement\Parameters.cpp">
@@ -51,6 +49,9 @@
       <Filter>implement</Filter>
     </ClCompile>
     <ClCompile Include="implement\VanillaOption.cpp">
+      <Filter>implement</Filter>
+    </ClCompile>
+    <ClCompile Include="implement\Statistics.cpp">
       <Filter>implement</Filter>
     </ClCompile>
   </ItemGroup>

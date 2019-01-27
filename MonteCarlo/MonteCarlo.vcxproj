@@ -34,6 +34,7 @@
     <ClCompile Include="implement\PayOffBridge.cpp" />
     <ClCompile Include="implement\Random.cpp" />
     <ClCompile Include="implement\SimpleMonteCarlo.cpp" />
+    <ClCompile Include="implement\Statistics.cpp" />
     <ClCompile Include="implement\VanillaOption.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

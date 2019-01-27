@@ -1,6 +1,8 @@
 #include "stdafx.h"
 #include "CppUnitTest.h"
 
+#include <crtdbg.h>
+
 #include <SimpleMonteCarlo.h>
 #include <VanillaOption.h>
 #include <Random.h>
@@ -40,6 +42,8 @@ namespace UnitTest
 				numOfPaths,
 				generator
 			);
+
+			_RPT0(_CRT_WARN, std::_Floating_to_string("%.10f", result).c_str());
 		}
 
 	};
