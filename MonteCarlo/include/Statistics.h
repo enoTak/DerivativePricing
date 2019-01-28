@@ -39,6 +39,7 @@ namespace MonteCarlo
 
 	private:
 		double RunningSum;
+		double RunningSquareSum;
 		unsigned long PathsDone;
 	};
 }

@@ -20,6 +20,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\ApiDefinition.h" />
+    <ClInclude Include="include\ConvergenceTable.h" />
     <ClInclude Include="include\Statistics.h" />
     <ClInclude Include="include\Parameters.h" />
     <ClInclude Include="include\PayOff.h" />
@@ -31,12 +32,14 @@
     <ClInclude Include="include\Clonable.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="implement\ConvergenceTable.cpp" />
     <ClCompile Include="implement\Parameters.cpp" />
     <ClCompile Include="implement\PayOff.cpp" />
     <ClCompile Include="implement\PayOffBridge.cpp" />
     <ClCompile Include="implement\Random.cpp" />
     <ClCompile Include="implement\SimpleMonteCarlo.cpp" />
     <ClCompile Include="implement\Statistics.cpp" />
+    <ClCompile Include="implement\StatisticsTable.cpp" />
     <ClCompile Include="implement\VanillaOption.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

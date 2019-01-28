@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="cpp\NpvTest.cpp" />
+    <ClCompile Include="cpp\MonteCarloTest.cpp" />
     <ClCompile Include="cpp\stdafx.cpp" />
   </ItemGroup>
   <ItemGroup>

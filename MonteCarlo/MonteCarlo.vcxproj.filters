@@ -7,6 +7,12 @@
     <Filter Include="implement">
       <UniqueIdentifier>{1f238c85-ee7e-4fcf-a018-ad3f0aab4c33}</UniqueIdentifier>
     </Filter>
+    <Filter Include="include\Statistics">
+      <UniqueIdentifier>{6abe90f0-6838-4171-ab8e-f349610c1458}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="implement\Statistics">
+      <UniqueIdentifier>{a9e3049a-7877-4c3a-be09-8c5b6747a7de}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\Parameters.h">
@@ -27,15 +33,18 @@
     <ClInclude Include="include\VanillaOption.h">
       <Filter>include</Filter>
     </ClInclude>
-    <ClInclude Include="include\Statistics.h">
-      <Filter>include</Filter>
-    </ClInclude>
     <ClInclude Include="include\ApiDefinition.h" />
     <ClInclude Include="include\Clonable.h">
       <Filter>include</Filter>
     </ClInclude>
+    <ClInclude Include="include\Statistics.h">
+      <Filter>include\Statistics</Filter>
+    </ClInclude>
     <ClInclude Include="include\StatisticsTable.h">
-      <Filter>implement</Filter>
+      <Filter>include\Statistics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ConvergenceTable.h">
+      <Filter>include\Statistics</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -57,8 +66,14 @@
     <ClCompile Include="implement\VanillaOption.cpp">
       <Filter>implement</Filter>
     </ClCompile>
+    <ClCompile Include="implement\StatisticsTable.cpp">
+      <Filter>implement\Statistics</Filter>
+    </ClCompile>
     <ClCompile Include="implement\Statistics.cpp">
-      <Filter>implement</Filter>
+      <Filter>implement\Statistics</Filter>
+    </ClCompile>
+    <ClCompile Include="implement\ConvergenceTable.cpp">
+      <Filter>implement\Statistics</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

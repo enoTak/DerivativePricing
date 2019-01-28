@@ -29,7 +29,13 @@ namespace MonteCarlo
 		std::vector<std::vector<double>> ret;
 		for (auto&& el : Inner)
 		{
-			ret.push_back(el->Result);
+			std::vector<std::vector<double>> tmp(
+				el->Result());
+			
+			for (auto&& l : tmp)
+			{
+				ret.push_back(l);
+			}
 		}
 		
 		return ret;

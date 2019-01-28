@@ -48,7 +48,7 @@ namespace MonteCarlo {
 					original.DataPtr->clone() : nullptr;
 			}
 
-			return this*
+			return *this;
 		}
 
 		T& operator*()

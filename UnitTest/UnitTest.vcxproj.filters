@@ -9,10 +9,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="cpp\NpvTest.cpp">
+    <ClCompile Include="cpp\stdafx.cpp">
       <Filter>cpp</Filter>
     </ClCompile>
-    <ClCompile Include="cpp\stdafx.cpp">
+    <ClCompile Include="cpp\MonteCarloTest.cpp">
       <Filter>cpp</Filter>
     </ClCompile>
   </ItemGroup>

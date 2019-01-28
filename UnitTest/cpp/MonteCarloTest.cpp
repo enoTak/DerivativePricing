@@ -12,7 +12,7 @@ using namespace MonteCarlo;
 
 namespace UnitTest
 {		
-	TEST_CLASS(NpvTest)
+	TEST_CLASS(MonteCarloTest)
 	{
 	public:
 		
@@ -44,6 +44,11 @@ namespace UnitTest
 			);
 
 			_RPT0(_CRT_WARN, std::_Floating_to_string("%.10f", result).c_str());
+		}
+
+		TEST_METHOD(StatisticsTest)
+		{
+
 		}
 
 	};
