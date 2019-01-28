@@ -31,6 +31,12 @@
       <Filter>include</Filter>
     </ClInclude>
     <ClInclude Include="include\ApiDefinition.h" />
+    <ClInclude Include="include\Clonable.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\StatisticsTable.h">
+      <Filter>implement</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="implement\Parameters.cpp">

@@ -26,7 +26,9 @@
     <ClInclude Include="include\PayOffBridge.h" />
     <ClInclude Include="include\Random.h" />
     <ClInclude Include="include\SimpleMonteCarlo.h" />
+    <ClInclude Include="include\StatisticsTable.h" />
     <ClInclude Include="include\VanillaOption.h" />
+    <ClInclude Include="include\Clonable.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="implement\Parameters.cpp" />

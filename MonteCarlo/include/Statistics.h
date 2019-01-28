@@ -29,4 +29,16 @@ namespace MonteCarlo
 		double RunningSum;
 		unsigned long PathsDone;
 	};
+	class StatisticsVariance : public Statistics
+	{
+	public:
+		StatisticsVariance();
+		virtual void DumpOneResult(double result);
+		virtual std::vector<std::vector<double>> Result() const;
+		virtual Statistics* clone() const;
+
+	private:
+		double RunningSum;
+		unsigned long PathsDone;
+	};
 }
